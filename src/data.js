@@ -26,6 +26,17 @@ export const mealData = [
 export const Testimonials = [
     {
         avatar: 'Hello',
-        text: "I had func visiting the place"
-    }
+        text: "I had func visiting the place",
+        review: "I love the services rendered by little lemon"
+    },
+    {
+        avatar: 'Hello',
+        text: "I had func visiting the place",
+        review: "I love the services rendered by little lemon"
+    },
+    {
+        avatar: 'Hello',
+        text: "I had func visiting the place",
+        review: "I love the services rendered by little lemon"
+    },
 ]

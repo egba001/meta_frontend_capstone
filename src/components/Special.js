@@ -12,7 +12,7 @@ const Special = () => {
                 {mealData.map(meal => {
                     return (
                     <li className="w-[80%] h-[300px]">
-                            <div className="h-full">
+                            <NavLink className="h-full">
                                 <img src={meal.image} className='object-cover w-full h-[60%] rounded-t-2xl' alt="Food" />
                                 <div className="pt-5 px-5 h-[70%] rounded-b-xl bg-[#EDEFEE]">
                                     <div className="flex justify-between mb-4 items-center">
@@ -22,7 +22,7 @@ const Special = () => {
                                     <p className="text-sm text-[#333333] mb-3">{meal.description}</p>
                                     <button><NavLink to='/reservation' className='text-sm'>Order a delivery</NavLink></button>
                                 </div>
-                            </div>
+                            </NavLink>
                     </li>
                 )
                 })}

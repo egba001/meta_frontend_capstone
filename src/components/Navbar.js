@@ -1,12 +1,12 @@
 import Logo from '../assets/icons/logo.svg';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import '../index.css';
-import HomePage from './Pages/HomePage';
-import Menu from './Pages/Menu';
-import Order from './Pages/Order';
-import Login from './Pages/Login';
-import Reservations from './Pages/Reservations';
-import About from './Pages/About';
+import HomePage from './../Pages/HomePage';
+import Menu from './../Pages/Menu';
+import Order from './../Pages/Order';
+import Login from './../Pages/Login';
+import Reservations from './../Pages/Reservations';
+import About from './About';
 
 const Navbar = () => {
     return(
@@ -18,7 +18,7 @@ const Navbar = () => {
                         <li className='text-green'><NavLink to='/about'>About</NavLink></li>
                         <li className='text-green'><NavLink to='/menu'>Menu</NavLink></li>
                         <li className='text-green'><NavLink to='/reservations'>Reservations</NavLink></li>
-                        <li className='rounded-3xl bg-green text-white p-3'><NavLink to='/order'>Order online</NavLink></li>
+                        <li className='rounded-3xl bg-green text-white p-3 hover:shadow-xlgit '><NavLink to='/order'>Order online</NavLink></li>
                         <li><NavLink to='/login'>Login</NavLink></li>
                     </ul>
                 </nav>
